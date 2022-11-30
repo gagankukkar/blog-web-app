@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // take out withRouter
+import { useNavigate } from 'react-router-dom';
 import { useAuth0 } from '../../contexts/auth0-context';
 
 function Create(): JSX.Element {
@@ -105,5 +105,5 @@ function Create(): JSX.Element {
     </div>
   );
 }
-export default Create // take out withRouter(Create)
+export default Create
             
